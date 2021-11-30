@@ -1,0 +1,14 @@
+blevine@ubuntu20vm:~$ 
+blevine@ubuntu20vm:~$ sudo trivy fs --security-checks vuln,config --severity HIGH,CRITICAL /
+2021-11-26T20:20:10.248Z	INFO	Need to update the built-in policies
+2021-11-26T20:20:10.248Z	INFO	Downloading the built-in policies...
+2021-11-26T20:20:16.448Z	INFO	Detected OS: ubuntu
+2021-11-26T20:20:16.449Z	INFO	Detecting Ubuntu vulnerabilities...
+2021-11-26T20:20:16.461Z	INFO	Number of language-specific files: 0
+2021-11-26T20:20:16.461Z	INFO	Detected config files: 0
+
+ubuntu_20_vm (ubuntu 20.04)
+===========================
+Total: 0 (HIGH: 0, CRITICAL: 0)
+
+

@@ -1,0 +1,3 @@
+$ apt list --upgradable
+$ apt list --upgradable
+Listing... Done

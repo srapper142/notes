@@ -1,0 +1,1246 @@
+2021-11-26T20:11:04.281Z	[34mINFO[0m	Detected OS: ubuntu
+2021-11-26T20:11:04.282Z	[34mINFO[0m	Detecting Ubuntu vulnerabilities...
+2021-11-26T20:11:04.347Z	[34mINFO[0m	Number of language-specific files: 0
+
+ubuntu_20_vm (ubuntu 20.04)
+===========================
+Total: 264 (UNKNOWN: 0, LOW: 189, MEDIUM: 75, HIGH: 0, CRITICAL: 0)
+
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+|               LIBRARY                | VULNERABILITY ID | SEVERITY |    INSTALLED VERSION     | FIXED VERSION |                  TITLE                   |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| accountsservice                      | CVE-2012-6655    | LOW      | 0.6.55-0ubuntu12~20.04.5 |               | accountsservice: local                   |
+|                                      |                  |          |                          |               | encrypted password disclosure            |
+|                                      |                  |          |                          |               | when changing password                   |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2012-6655     |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| amd64-microcode                      | CVE-2021-26318   | MEDIUM   | 3.20191218.1ubuntu1      |               | A timing and power-based side            |
+|                                      |                  |          |                          |               | channel attack leveraging the            |
+|                                      |                  |          |                          |               | x86 PREFETCH instructions...             |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-26318    |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| apparmor                             | CVE-2016-1585    |          | 2.13.3-7ubuntu5.1        |               | In all versions of AppArmor              |
+|                                      |                  |          |                          |               | mount rules are accidentally             |
+|                                      |                  |          |                          |               | widened when compiled....                |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2016-1585     |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| bash                                 | CVE-2019-18276   | LOW      | 5.0-6ubuntu1.1           |               | bash: when effective UID is not          |
+|                                      |                  |          |                          |               | equal to its real UID the...             |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-18276    |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| busybox-initramfs                    | CVE-2021-28831   |          | 1:1.30.1-4ubuntu6.3      |               | busybox: invalid free or segmentation    |
+|                                      |                  |          |                          |               | fault via malformed gzip data            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-28831    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42374   |          |                          |               | busybox: out-of-bounds read              |
+|                                      |                  |          |                          |               | in unlzma applet leads to                |
+|                                      |                  |          |                          |               | information leak and denial...           |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42374    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42378   |          |                          |               | busybox: use-after-free in               |
+|                                      |                  |          |                          |               | awk applet leads to denial               |
+|                                      |                  |          |                          |               | of service and possibly...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42378    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42379   |          |                          |               | busybox: use-after-free in               |
+|                                      |                  |          |                          |               | awk applet leads to denial               |
+|                                      |                  |          |                          |               | of service and possibly...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42379    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42380   |          |                          |               | busybox: use-after-free in               |
+|                                      |                  |          |                          |               | awk applet leads to denial               |
+|                                      |                  |          |                          |               | of service and possibly...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42380    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42381   |          |                          |               | busybox: use-after-free in               |
+|                                      |                  |          |                          |               | awk applet leads to denial               |
+|                                      |                  |          |                          |               | of service and possibly...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42381    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42382   |          |                          |               | busybox: use-after-free in               |
+|                                      |                  |          |                          |               | awk applet leads to denial               |
+|                                      |                  |          |                          |               | of service and possibly...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42382    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42384   |          |                          |               | busybox: use-after-free in               |
+|                                      |                  |          |                          |               | awk applet leads to denial               |
+|                                      |                  |          |                          |               | of service and possibly...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42384    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42385   |          |                          |               | busybox: use-after-free in               |
+|                                      |                  |          |                          |               | awk applet leads to denial               |
+|                                      |                  |          |                          |               | of service and possibly...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42385    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42386   |          |                          |               | busybox: use-after-free in               |
+|                                      |                  |          |                          |               | awk applet leads to denial               |
+|                                      |                  |          |                          |               | of service and possibly...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42386    |
++--------------------------------------+------------------+          +                          +---------------+------------------------------------------+
+| busybox-static                       | CVE-2021-28831   |          |                          |               | busybox: invalid free or segmentation    |
+|                                      |                  |          |                          |               | fault via malformed gzip data            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-28831    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42374   |          |                          |               | busybox: out-of-bounds read              |
+|                                      |                  |          |                          |               | in unlzma applet leads to                |
+|                                      |                  |          |                          |               | information leak and denial...           |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42374    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42378   |          |                          |               | busybox: use-after-free in               |
+|                                      |                  |          |                          |               | awk applet leads to denial               |
+|                                      |                  |          |                          |               | of service and possibly...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42378    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42379   |          |                          |               | busybox: use-after-free in               |
+|                                      |                  |          |                          |               | awk applet leads to denial               |
+|                                      |                  |          |                          |               | of service and possibly...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42379    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42380   |          |                          |               | busybox: use-after-free in               |
+|                                      |                  |          |                          |               | awk applet leads to denial               |
+|                                      |                  |          |                          |               | of service and possibly...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42380    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42381   |          |                          |               | busybox: use-after-free in               |
+|                                      |                  |          |                          |               | awk applet leads to denial               |
+|                                      |                  |          |                          |               | of service and possibly...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42381    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42382   |          |                          |               | busybox: use-after-free in               |
+|                                      |                  |          |                          |               | awk applet leads to denial               |
+|                                      |                  |          |                          |               | of service and possibly...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42382    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42384   |          |                          |               | busybox: use-after-free in               |
+|                                      |                  |          |                          |               | awk applet leads to denial               |
+|                                      |                  |          |                          |               | of service and possibly...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42384    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42385   |          |                          |               | busybox: use-after-free in               |
+|                                      |                  |          |                          |               | awk applet leads to denial               |
+|                                      |                  |          |                          |               | of service and possibly...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42385    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42386   |          |                          |               | busybox: use-after-free in               |
+|                                      |                  |          |                          |               | awk applet leads to denial               |
+|                                      |                  |          |                          |               | of service and possibly...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42386    |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| coreutils                            | CVE-2016-2781    |          | 8.30-3ubuntu2            |               | coreutils: Non-privileged                |
+|                                      |                  |          |                          |               | session can escape to the                |
+|                                      |                  |          |                          |               | parent session in chroot                 |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2016-2781     |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| dbus                                 | CVE-2020-35512   |          | 1.12.16-2ubuntu2.1       |               | dbus: users with the same numeric UID    |
+|                                      |                  |          |                          |               | could lead to use-after-free and...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-35512    |
++--------------------------------------+                  +          +                          +---------------+                                          +
+| dbus-user-session                    |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| git                                  | CVE-2018-1000021 |          | 1:2.25.1-1ubuntu3.2      |               | git: client prints server-sent           |
+|                                      |                  |          |                          |               | ANSI escape codes to the                 |
+|                                      |                  |          |                          |               | terminal, allowing for...                |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-1000021  |
++--------------------------------------+                  +          +                          +---------------+                                          +
+| git-man                              |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| groff-base                           | CVE-2009-5080    |          | 1.22.4-4build1           |               | groff: improper handling of              |
+|                                      |                  |          |                          |               | failed attempts to create                |
+|                                      |                  |          |                          |               | temporary directories in                 |
+|                                      |                  |          |                          |               | eqn2graph/pic2graph/grap2graph...        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2009-5080     |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| krb5-locales                         | CVE-2021-36222   | MEDIUM   | 1.17-6ubuntu4.1          |               | krb5: Sending a request containing       |
+|                                      |                  |          |                          |               | PA-ENCRYPTED-CHALLENGE padata            |
+|                                      |                  |          |                          |               | element without using FAST could...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-36222    |
++                                      +------------------+----------+                          +---------------+------------------------------------------+
+|                                      | CVE-2018-5709    | LOW      |                          |               | krb5: integer overflow                   |
+|                                      |                  |          |                          |               | in dbentry->n_key_data                   |
+|                                      |                  |          |                          |               | in kadmin/dbutil/dump.c                  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-5709     |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| libaccountsservice0                  | CVE-2012-6655    |          | 0.6.55-0ubuntu12~20.04.5 |               | accountsservice: local                   |
+|                                      |                  |          |                          |               | encrypted password disclosure            |
+|                                      |                  |          |                          |               | when changing password                   |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2012-6655     |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| libapparmor1                         | CVE-2016-1585    | MEDIUM   | 2.13.3-7ubuntu5.1        |               | In all versions of AppArmor              |
+|                                      |                  |          |                          |               | mount rules are accidentally             |
+|                                      |                  |          |                          |               | widened when compiled....                |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2016-1585     |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| libarchive13                         | CVE-2021-36976   |          | 3.4.0-2ubuntu1           |               | libarchive: use-after-free               |
+|                                      |                  |          |                          |               | in copy_string()                         |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-36976    |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| libasn1-8-heimdal                    | CVE-2021-3671    | LOW      | 7.7.0+dfsg-1ubuntu1      |               | samba: Null pointer dereference          |
+|                                      |                  |          |                          |               | on missing sname in TGS-REQ              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3671     |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| libc-bin                             | CVE-2021-35942   | MEDIUM   | 2.31-0ubuntu9.2          |               | glibc: Arbitrary read in wordexp()       |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-35942    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-38604   |          |                          |               | glibc: NULL pointer dereference in       |
+|                                      |                  |          |                          |               | helper_thread() in mq_notify.c while     |
+|                                      |                  |          |                          |               | handling NOTIFY_REMOVED messages...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-38604    |
++                                      +------------------+----------+                          +---------------+------------------------------------------+
+|                                      | CVE-2016-10228   | LOW      |                          |               | glibc: iconv program can hang            |
+|                                      |                  |          |                          |               | when invoked with the -c option          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2016-10228    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-25013   |          |                          |               | glibc: buffer over-read in               |
+|                                      |                  |          |                          |               | iconv when processing invalid            |
+|                                      |                  |          |                          |               | multi-byte input sequences in...         |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-25013    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-27618   |          |                          |               | glibc: iconv when processing             |
+|                                      |                  |          |                          |               | invalid multi-byte input                 |
+|                                      |                  |          |                          |               | sequences fails to advance the...        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-27618    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-29562   |          |                          |               | glibc: assertion failure in iconv        |
+|                                      |                  |          |                          |               | when converting invalid UCS4             |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-29562    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-6096    |          |                          |               | glibc: signed comparison                 |
+|                                      |                  |          |                          |               | vulnerability in the                     |
+|                                      |                  |          |                          |               | ARMv7 memcpy function                    |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-6096     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-27645   |          |                          |               | glibc: Use-after-free in                 |
+|                                      |                  |          |                          |               | addgetnetgrentX function                 |
+|                                      |                  |          |                          |               | in netgroupcache.c                       |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-27645    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-3326    |          |                          |               | glibc: Assertion failure in              |
+|                                      |                  |          |                          |               | ISO-2022-JP-3 gconv module               |
+|                                      |                  |          |                          |               | related to combining characters          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3326     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-33574   |          |                          |               | glibc: mq_notify does                    |
+|                                      |                  |          |                          |               | not handle separately                    |
+|                                      |                  |          |                          |               | allocated thread attributes              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-33574    |
++--------------------------------------+------------------+----------+                          +---------------+------------------------------------------+
+| libc6                                | CVE-2021-35942   | MEDIUM   |                          |               | glibc: Arbitrary read in wordexp()       |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-35942    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-38604   |          |                          |               | glibc: NULL pointer dereference in       |
+|                                      |                  |          |                          |               | helper_thread() in mq_notify.c while     |
+|                                      |                  |          |                          |               | handling NOTIFY_REMOVED messages...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-38604    |
++                                      +------------------+----------+                          +---------------+------------------------------------------+
+|                                      | CVE-2016-10228   | LOW      |                          |               | glibc: iconv program can hang            |
+|                                      |                  |          |                          |               | when invoked with the -c option          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2016-10228    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-25013   |          |                          |               | glibc: buffer over-read in               |
+|                                      |                  |          |                          |               | iconv when processing invalid            |
+|                                      |                  |          |                          |               | multi-byte input sequences in...         |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-25013    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-27618   |          |                          |               | glibc: iconv when processing             |
+|                                      |                  |          |                          |               | invalid multi-byte input                 |
+|                                      |                  |          |                          |               | sequences fails to advance the...        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-27618    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-29562   |          |                          |               | glibc: assertion failure in iconv        |
+|                                      |                  |          |                          |               | when converting invalid UCS4             |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-29562    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-6096    |          |                          |               | glibc: signed comparison                 |
+|                                      |                  |          |                          |               | vulnerability in the                     |
+|                                      |                  |          |                          |               | ARMv7 memcpy function                    |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-6096     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-27645   |          |                          |               | glibc: Use-after-free in                 |
+|                                      |                  |          |                          |               | addgetnetgrentX function                 |
+|                                      |                  |          |                          |               | in netgroupcache.c                       |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-27645    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-3326    |          |                          |               | glibc: Assertion failure in              |
+|                                      |                  |          |                          |               | ISO-2022-JP-3 gconv module               |
+|                                      |                  |          |                          |               | related to combining characters          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3326     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-33574   |          |                          |               | glibc: mq_notify does                    |
+|                                      |                  |          |                          |               | not handle separately                    |
+|                                      |                  |          |                          |               | allocated thread attributes              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-33574    |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| libdbus-1-3                          | CVE-2020-35512   |          | 1.12.16-2ubuntu2.1       |               | dbus: users with the same numeric UID    |
+|                                      |                  |          |                          |               | could lead to use-after-free and...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-35512    |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| libfl2                               | CVE-2019-6293    |          | 2.6.4-6.2                |               | flex: Recursive calls in the             |
+|                                      |                  |          |                          |               | function mark_beginning_as_normal        |
+|                                      |                  |          |                          |               | resulting in a denial of...              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-6293     |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| libgmp10                             | CVE-2021-43618   |          | 2:6.2.0+dfsg-4           |               | gmp: Integer overflow and resultant      |
+|                                      |                  |          |                          |               | buffer overflow via crafted input        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-43618    |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| libgssapi-krb5-2                     | CVE-2021-36222   | MEDIUM   | 1.17-6ubuntu4.1          |               | krb5: Sending a request containing       |
+|                                      |                  |          |                          |               | PA-ENCRYPTED-CHALLENGE padata            |
+|                                      |                  |          |                          |               | element without using FAST could...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-36222    |
++                                      +------------------+----------+                          +---------------+------------------------------------------+
+|                                      | CVE-2018-5709    | LOW      |                          |               | krb5: integer overflow                   |
+|                                      |                  |          |                          |               | in dbentry->n_key_data                   |
+|                                      |                  |          |                          |               | in kadmin/dbutil/dump.c                  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-5709     |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| libgssapi3-heimdal                   | CVE-2021-3671    |          | 7.7.0+dfsg-1ubuntu1      |               | samba: Null pointer dereference          |
+|                                      |                  |          |                          |               | on missing sname in TGS-REQ              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3671     |
++--------------------------------------+                  +          +                          +---------------+                                          +
+| libhcrypto4-heimdal                  |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
++--------------------------------------+                  +          +                          +---------------+                                          +
+| libheimbase1-heimdal                 |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
++--------------------------------------+                  +          +                          +---------------+                                          +
+| libheimntlm0-heimdal                 |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
++--------------------------------------+                  +          +                          +---------------+                                          +
+| libhx509-5-heimdal                   |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| libk5crypto3                         | CVE-2021-36222   | MEDIUM   | 1.17-6ubuntu4.1          |               | krb5: Sending a request containing       |
+|                                      |                  |          |                          |               | PA-ENCRYPTED-CHALLENGE padata            |
+|                                      |                  |          |                          |               | element without using FAST could...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-36222    |
++                                      +------------------+----------+                          +---------------+------------------------------------------+
+|                                      | CVE-2018-5709    | LOW      |                          |               | krb5: integer overflow                   |
+|                                      |                  |          |                          |               | in dbentry->n_key_data                   |
+|                                      |                  |          |                          |               | in kadmin/dbutil/dump.c                  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-5709     |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| libkrb5-26-heimdal                   | CVE-2021-3671    |          | 7.7.0+dfsg-1ubuntu1      |               | samba: Null pointer dereference          |
+|                                      |                  |          |                          |               | on missing sname in TGS-REQ              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3671     |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| libkrb5-3                            | CVE-2021-36222   | MEDIUM   | 1.17-6ubuntu4.1          |               | krb5: Sending a request containing       |
+|                                      |                  |          |                          |               | PA-ENCRYPTED-CHALLENGE padata            |
+|                                      |                  |          |                          |               | element without using FAST could...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-36222    |
++                                      +------------------+----------+                          +---------------+------------------------------------------+
+|                                      | CVE-2018-5709    | LOW      |                          |               | krb5: integer overflow                   |
+|                                      |                  |          |                          |               | in dbentry->n_key_data                   |
+|                                      |                  |          |                          |               | in kadmin/dbutil/dump.c                  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-5709     |
++--------------------------------------+------------------+----------+                          +---------------+------------------------------------------+
+| libkrb5support0                      | CVE-2021-36222   | MEDIUM   |                          |               | krb5: Sending a request containing       |
+|                                      |                  |          |                          |               | PA-ENCRYPTED-CHALLENGE padata            |
+|                                      |                  |          |                          |               | element without using FAST could...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-36222    |
++                                      +------------------+----------+                          +---------------+------------------------------------------+
+|                                      | CVE-2018-5709    | LOW      |                          |               | krb5: integer overflow                   |
+|                                      |                  |          |                          |               | in dbentry->n_key_data                   |
+|                                      |                  |          |                          |               | in kadmin/dbutil/dump.c                  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-5709     |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| libnss3                              | CVE-2020-25648   |          | 2:3.49.1-1ubuntu1.5      |               | nss: TLS 1.3 CCS flood                   |
+|                                      |                  |          |                          |               | remote DoS Attack                        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-25648    |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| libpcre3                             | CVE-2017-11164   |          | 2:8.39-12build1          |               | pcre: OP_KETRMAX feature in the          |
+|                                      |                  |          |                          |               | match function in pcre_exec.c            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2017-11164    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-20838   |          |                          |               | pcre: Buffer over-read in JIT            |
+|                                      |                  |          |                          |               | when UTF is disabled and \X or...        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-20838    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-14155   |          |                          |               | pcre: Integer overflow when              |
+|                                      |                  |          |                          |               | parsing callout numeric arguments        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-14155    |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| libperl5.30                          | CVE-2020-16156   | MEDIUM   | 5.30.0-9ubuntu0.2        |               | [Signature Verification Bypass]          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-16156    |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| libpolkit-agent-1-0                  | CVE-2016-2568    | LOW      | 0.105-26ubuntu1.1        |               | polkit: Program run via                  |
+|                                      |                  |          |                          |               | pkexec as unprivileged user              |
+|                                      |                  |          |                          |               | can escape to parent...                  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2016-2568     |
++--------------------------------------+                  +          +                          +---------------+                                          +
+| libpolkit-gobject-1-0                |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| libpython3.8                         | CVE-2021-23336   |          | 3.8.10-0ubuntu1~20.04.1  |               | python: Web cache poisoning              |
+|                                      |                  |          |                          |               | via urllib.parse.parse_qsl               |
+|                                      |                  |          |                          |               | and urllib.parse.parse_qs                |
+|                                      |                  |          |                          |               | by using a semicolon...                  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-23336    |
++--------------------------------------+                  +          +                          +---------------+                                          +
+| libpython3.8-minimal                 |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
++--------------------------------------+                  +          +                          +---------------+                                          +
+| libpython3.8-stdlib                  |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| libroken18-heimdal                   | CVE-2021-3671    |          | 7.7.0+dfsg-1ubuntu1      |               | samba: Null pointer dereference          |
+|                                      |                  |          |                          |               | on missing sname in TGS-REQ              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3671     |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| libsqlite3-0                         | CVE-2020-9794    | MEDIUM   | 3.31.1-4ubuntu0.2        |               | An out-of-bounds read was                |
+|                                      |                  |          |                          |               | addressed with improved bounds           |
+|                                      |                  |          |                          |               | checking. This issue is...               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-9794     |
++                                      +------------------+----------+                          +---------------+------------------------------------------+
+|                                      | CVE-2020-9849    | LOW      |                          |               | An information disclosure issue          |
+|                                      |                  |          |                          |               | was addressed with improved              |
+|                                      |                  |          |                          |               | state management. This issue...          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-9849     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-9991    |          |                          |               | This issue was addressed                 |
+|                                      |                  |          |                          |               | with improved checks.                    |
+|                                      |                  |          |                          |               | This issue is fixed in...                |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-9991     |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| libtasn1-6                           | CVE-2018-1000654 |          | 4.16.0-2                 |               | libtasn1: Infinite loop in               |
+|                                      |                  |          |                          |               | _asn1_expand_object_id(ptree)            |
+|                                      |                  |          |                          |               | leads to memory exhaustion               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-1000654  |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| libudisks2-0                         | CVE-2021-3802    |          | 2.8.4-1ubuntu2           |               | udisks2: insecure defaults               |
+|                                      |                  |          |                          |               | in user-accessible mount                 |
+|                                      |                  |          |                          |               | helpers allow for a DoS                  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3802     |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| libwind0-heimdal                     | CVE-2021-3671    |          | 7.7.0+dfsg-1ubuntu1      |               | samba: Null pointer dereference          |
+|                                      |                  |          |                          |               | on missing sname in TGS-REQ              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3671     |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| libxslt1.1                           | CVE-2015-9019    |          | 1.1.34-4                 |               | libxslt: math.random() in                |
+|                                      |                  |          |                          |               | xslt uses unseeded randomness            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2015-9019     |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| linux-firmware                       | CVE-2020-12313   | MEDIUM   | 1.187.20                 |               | Insufficient control flow management     |
+|                                      |                  |          |                          |               | in some Intel(R) PROSet/Wireless         |
+|                                      |                  |          |                          |               | WiFi products before version...          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-12313    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-12317   |          |                          |               | Improper buffer restriction in           |
+|                                      |                  |          |                          |               | some Intel(R) PROSet/Wireless WiFi       |
+|                                      |                  |          |                          |               | products before version 21.110...        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-12317    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-12319   |          |                          |               | Insufficient control flow management     |
+|                                      |                  |          |                          |               | in some Intel(R) PROSet/Wireless         |
+|                                      |                  |          |                          |               | WiFi products before version...          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-12319    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-12363   |          |                          |               | kernel: Improper input validation        |
+|                                      |                  |          |                          |               | in some Intel(R) Graphics Drivers        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-12363    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-12364   |          |                          |               | kernel: Null pointer dereference         |
+|                                      |                  |          |                          |               | in some Intel(R) Graphics Drivers        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-12364    |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| linux-headers-5.4.0-90               | CVE-2013-7445    |          | 5.4.0-90.101             |               | kernel: memory exhaustion via            |
+|                                      |                  |          |                          |               | crafted Graphics Execution               |
+|                                      |                  |          |                          |               | Manager (GEM) objects                    |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2013-7445     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2015-8553    |          |                          |               | CVE-2015-2150 CVE-2015-8553              |
+|                                      |                  |          |                          |               | xen: non-maskable interrupts             |
+|                                      |                  |          |                          |               | triggerable by guests (xsa120)           |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2015-8553     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2016-8660    |          |                          |               | kernel: xfs: local DoS due to            |
+|                                      |                  |          |                          |               | a page lock order bug in...              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2016-8660     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-17977   |          |                          |               | kernel: Mishandled interactions among    |
+|                                      |                  |          |                          |               | XFRM Netlink messages, IPPROTO_AH        |
+|                                      |                  |          |                          |               | packets, and IPPROTO_IP packets...       |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-17977    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-12363   |          |                          |               | kernel: Improper input validation        |
+|                                      |                  |          |                          |               | in some Intel(R) Graphics Drivers        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-12363    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-12364   |          |                          |               | kernel: Null pointer dereference         |
+|                                      |                  |          |                          |               | in some Intel(R) Graphics Drivers        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-12364    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-24504   |          |                          |               | kernel: Uncontrolled resource            |
+|                                      |                  |          |                          |               | consumption in some Intel(R)             |
+|                                      |                  |          |                          |               | Ethernet E810 Adapter drivers            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-24504    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-26541   |          |                          |               | kernel: security bypass                  |
+|                                      |                  |          |                          |               | in certs/blacklist.c and                 |
+|                                      |                  |          |                          |               | certs/system_keyring.c                   |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-26541    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-27835   |          |                          |               | kernel: child process is able to         |
+|                                      |                  |          |                          |               | access parent mm through hfi dev...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-27835    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-36310   |          |                          |               | kernel: infinite loop in                 |
+|                                      |                  |          |                          |               | set_memory_region_test in                |
+|                                      |                  |          |                          |               | arch/x86/kvm/svm/svm.c for               |
+|                                      |                  |          |                          |               | certain nested page faults...            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-36310    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-26932   |          |                          |               | ELSA-2021-9136:  Unbreakable             |
+|                                      |                  |          |                          |               | Enterprise kernel-container              |
+|                                      |                  |          |                          |               | security update (IMPORTANT)              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-26932    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42739   |          |                          |               | kernel: Heap buffer                      |
+|                                      |                  |          |                          |               | overflow in firedtv driver               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42739    |
++                                      +------------------+----------+                          +---------------+------------------------------------------+
+|                                      | CVE-2017-0537    | LOW      |                          |               | An information disclosure                |
+|                                      |                  |          |                          |               | vulnerability in the kernel USB          |
+|                                      |                  |          |                          |               | gadget driver could enable...            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2017-0537     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2017-13165   |          |                          |               | An elevation of privilege                |
+|                                      |                  |          |                          |               | vulnerability in the kernel file         |
+|                                      |                  |          |                          |               | system. Product: Android....             |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2017-13165    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2017-13693   |          |                          |               | kernel: ACPI operand                     |
+|                                      |                  |          |                          |               | cache leak in dsutils.c                  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2017-13693    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-1121    |          |                          |               | procps-ng, procps: process               |
+|                                      |                  |          |                          |               | hiding through race                      |
+|                                      |                  |          |                          |               | condition enumerating /proc              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-1121     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-12928   |          |                          |               | kernel: NULL pointer dereference         |
+|                                      |                  |          |                          |               | in hfs_ext_read_extent in hfs.ko         |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-12928    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-12929   |          |                          |               | kernel: use-after-free in                |
+|                                      |                  |          |                          |               | ntfs_read_locked_inode in the ntfs.ko    |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-12929    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-12930   |          |                          |               | kernel: stack-based out-of-bounds        |
+|                                      |                  |          |                          |               | write in ntfs_end_buffer_async_read      |
+|                                      |                  |          |                          |               | in the ntfs.ko                           |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-12930    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-12931   |          |                          |               | kernel: stack-based                      |
+|                                      |                  |          |                          |               | out-of-bounds write in                   |
+|                                      |                  |          |                          |               | ntfs_attr_find in the ntfs.ko            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-12931    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-14899   |          |                          |               | VPN: an attacker can inject data         |
+|                                      |                  |          |                          |               | into the TCP stream which allows...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-14899    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-15213   |          |                          |               | kernel: use-after-free caused            |
+|                                      |                  |          |                          |               | by malicious USB device in               |
+|                                      |                  |          |                          |               | drivers/media/usb/dvb-usb/dvb-usb-init.c |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-15213    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-16230   |          |                          |               | kernel: null pointer dereference in      |
+|                                      |                  |          |                          |               | drivers/gpu/drm/radeon/radeon_display.c  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-16230    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-19378   |          |                          |               | kernel: out-of-bounds write in           |
+|                                      |                  |          |                          |               | index_rbio_pages in fs/btrfs/raid56.c    |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-19378    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-19814   |          |                          |               | kernel: out-of-bounds write              |
+|                                      |                  |          |                          |               | in __remove_dirty_segment                |
+|                                      |                  |          |                          |               | in fs/f2fs/segment.c                     |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-19814    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-11725   |          |                          |               | kernel: improper handling of             |
+|                                      |                  |          |                          |               | private_size*count multiplication        |
+|                                      |                  |          |                          |               | due to count=info->owner typo            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-11725    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-14304   |          |                          |               | kernel: ethtool when reading             |
+|                                      |                  |          |                          |               | eeprom of device could                   |
+|                                      |                  |          |                          |               | lead to memory leak...                   |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-14304    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-35501   |          |                          |               | kernel: audit not logging access         |
+|                                      |                  |          |                          |               | to syscall open_by_handle_at for         |
+|                                      |                  |          |                          |               | users with CAP_DAC_READ_SEARCH...        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-35501    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-26934   |          |                          |               | An issue was discovered in the Linux     |
+|                                      |                  |          |                          |               | kernel 4.18 through 5.10.16, as...       |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-26934    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-32078   |          |                          |               | kernel: out-of-bounds read in            |
+|                                      |                  |          |                          |               | arch/arm/mach-footbridge/personal-pci.c  |
+|                                      |                  |          |                          |               | due to improper input validation         |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-32078    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-34981   |          |                          |               | kernel: Bluetooth CMTP                   |
+|                                      |                  |          |                          |               | Module Double Free Privilege             |
+|                                      |                  |          |                          |               | Escalation Vulnerability                 |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-34981    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-3669    |          |                          |               | kernel: reading /proc/sysvipc/shm        |
+|                                      |                  |          |                          |               | does not scale with large                |
+|                                      |                  |          |                          |               | shared memory segment counts...          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3669     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-3772    |          |                          |               | kernel: sctp: Invalid chunks             |
+|                                      |                  |          |                          |               | may be used to remotely remove           |
+|                                      |                  |          |                          |               | existing associations...                 |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3772     |
++--------------------------------------+------------------+----------+                          +---------------+------------------------------------------+
+| linux-headers-5.4.0-90-generic       | CVE-2013-7445    | MEDIUM   |                          |               | kernel: memory exhaustion via            |
+|                                      |                  |          |                          |               | crafted Graphics Execution               |
+|                                      |                  |          |                          |               | Manager (GEM) objects                    |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2013-7445     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2015-8553    |          |                          |               | CVE-2015-2150 CVE-2015-8553              |
+|                                      |                  |          |                          |               | xen: non-maskable interrupts             |
+|                                      |                  |          |                          |               | triggerable by guests (xsa120)           |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2015-8553     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2016-8660    |          |                          |               | kernel: xfs: local DoS due to            |
+|                                      |                  |          |                          |               | a page lock order bug in...              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2016-8660     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-17977   |          |                          |               | kernel: Mishandled interactions among    |
+|                                      |                  |          |                          |               | XFRM Netlink messages, IPPROTO_AH        |
+|                                      |                  |          |                          |               | packets, and IPPROTO_IP packets...       |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-17977    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-12363   |          |                          |               | kernel: Improper input validation        |
+|                                      |                  |          |                          |               | in some Intel(R) Graphics Drivers        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-12363    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-12364   |          |                          |               | kernel: Null pointer dereference         |
+|                                      |                  |          |                          |               | in some Intel(R) Graphics Drivers        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-12364    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-24504   |          |                          |               | kernel: Uncontrolled resource            |
+|                                      |                  |          |                          |               | consumption in some Intel(R)             |
+|                                      |                  |          |                          |               | Ethernet E810 Adapter drivers            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-24504    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-26541   |          |                          |               | kernel: security bypass                  |
+|                                      |                  |          |                          |               | in certs/blacklist.c and                 |
+|                                      |                  |          |                          |               | certs/system_keyring.c                   |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-26541    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-27835   |          |                          |               | kernel: child process is able to         |
+|                                      |                  |          |                          |               | access parent mm through hfi dev...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-27835    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-36310   |          |                          |               | kernel: infinite loop in                 |
+|                                      |                  |          |                          |               | set_memory_region_test in                |
+|                                      |                  |          |                          |               | arch/x86/kvm/svm/svm.c for               |
+|                                      |                  |          |                          |               | certain nested page faults...            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-36310    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-26932   |          |                          |               | ELSA-2021-9136:  Unbreakable             |
+|                                      |                  |          |                          |               | Enterprise kernel-container              |
+|                                      |                  |          |                          |               | security update (IMPORTANT)              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-26932    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42739   |          |                          |               | kernel: Heap buffer                      |
+|                                      |                  |          |                          |               | overflow in firedtv driver               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42739    |
++                                      +------------------+----------+                          +---------------+------------------------------------------+
+|                                      | CVE-2017-0537    | LOW      |                          |               | An information disclosure                |
+|                                      |                  |          |                          |               | vulnerability in the kernel USB          |
+|                                      |                  |          |                          |               | gadget driver could enable...            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2017-0537     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2017-13165   |          |                          |               | An elevation of privilege                |
+|                                      |                  |          |                          |               | vulnerability in the kernel file         |
+|                                      |                  |          |                          |               | system. Product: Android....             |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2017-13165    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2017-13693   |          |                          |               | kernel: ACPI operand                     |
+|                                      |                  |          |                          |               | cache leak in dsutils.c                  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2017-13693    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-1121    |          |                          |               | procps-ng, procps: process               |
+|                                      |                  |          |                          |               | hiding through race                      |
+|                                      |                  |          |                          |               | condition enumerating /proc              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-1121     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-12928   |          |                          |               | kernel: NULL pointer dereference         |
+|                                      |                  |          |                          |               | in hfs_ext_read_extent in hfs.ko         |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-12928    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-12929   |          |                          |               | kernel: use-after-free in                |
+|                                      |                  |          |                          |               | ntfs_read_locked_inode in the ntfs.ko    |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-12929    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-12930   |          |                          |               | kernel: stack-based out-of-bounds        |
+|                                      |                  |          |                          |               | write in ntfs_end_buffer_async_read      |
+|                                      |                  |          |                          |               | in the ntfs.ko                           |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-12930    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-12931   |          |                          |               | kernel: stack-based                      |
+|                                      |                  |          |                          |               | out-of-bounds write in                   |
+|                                      |                  |          |                          |               | ntfs_attr_find in the ntfs.ko            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-12931    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-14899   |          |                          |               | VPN: an attacker can inject data         |
+|                                      |                  |          |                          |               | into the TCP stream which allows...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-14899    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-15213   |          |                          |               | kernel: use-after-free caused            |
+|                                      |                  |          |                          |               | by malicious USB device in               |
+|                                      |                  |          |                          |               | drivers/media/usb/dvb-usb/dvb-usb-init.c |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-15213    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-16230   |          |                          |               | kernel: null pointer dereference in      |
+|                                      |                  |          |                          |               | drivers/gpu/drm/radeon/radeon_display.c  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-16230    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-19378   |          |                          |               | kernel: out-of-bounds write in           |
+|                                      |                  |          |                          |               | index_rbio_pages in fs/btrfs/raid56.c    |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-19378    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-19814   |          |                          |               | kernel: out-of-bounds write              |
+|                                      |                  |          |                          |               | in __remove_dirty_segment                |
+|                                      |                  |          |                          |               | in fs/f2fs/segment.c                     |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-19814    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-11725   |          |                          |               | kernel: improper handling of             |
+|                                      |                  |          |                          |               | private_size*count multiplication        |
+|                                      |                  |          |                          |               | due to count=info->owner typo            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-11725    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-14304   |          |                          |               | kernel: ethtool when reading             |
+|                                      |                  |          |                          |               | eeprom of device could                   |
+|                                      |                  |          |                          |               | lead to memory leak...                   |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-14304    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-35501   |          |                          |               | kernel: audit not logging access         |
+|                                      |                  |          |                          |               | to syscall open_by_handle_at for         |
+|                                      |                  |          |                          |               | users with CAP_DAC_READ_SEARCH...        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-35501    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-26934   |          |                          |               | An issue was discovered in the Linux     |
+|                                      |                  |          |                          |               | kernel 4.18 through 5.10.16, as...       |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-26934    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-32078   |          |                          |               | kernel: out-of-bounds read in            |
+|                                      |                  |          |                          |               | arch/arm/mach-footbridge/personal-pci.c  |
+|                                      |                  |          |                          |               | due to improper input validation         |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-32078    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-34981   |          |                          |               | kernel: Bluetooth CMTP                   |
+|                                      |                  |          |                          |               | Module Double Free Privilege             |
+|                                      |                  |          |                          |               | Escalation Vulnerability                 |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-34981    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-3669    |          |                          |               | kernel: reading /proc/sysvipc/shm        |
+|                                      |                  |          |                          |               | does not scale with large                |
+|                                      |                  |          |                          |               | shared memory segment counts...          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3669     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-3772    |          |                          |               | kernel: sctp: Invalid chunks             |
+|                                      |                  |          |                          |               | may be used to remotely remove           |
+|                                      |                  |          |                          |               | existing associations...                 |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3772     |
++--------------------------------------+------------------+----------+                          +---------------+------------------------------------------+
+| linux-modules-5.4.0-90-generic       | CVE-2013-7445    | MEDIUM   |                          |               | kernel: memory exhaustion via            |
+|                                      |                  |          |                          |               | crafted Graphics Execution               |
+|                                      |                  |          |                          |               | Manager (GEM) objects                    |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2013-7445     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2015-8553    |          |                          |               | CVE-2015-2150 CVE-2015-8553              |
+|                                      |                  |          |                          |               | xen: non-maskable interrupts             |
+|                                      |                  |          |                          |               | triggerable by guests (xsa120)           |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2015-8553     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2016-8660    |          |                          |               | kernel: xfs: local DoS due to            |
+|                                      |                  |          |                          |               | a page lock order bug in...              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2016-8660     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-17977   |          |                          |               | kernel: Mishandled interactions among    |
+|                                      |                  |          |                          |               | XFRM Netlink messages, IPPROTO_AH        |
+|                                      |                  |          |                          |               | packets, and IPPROTO_IP packets...       |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-17977    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-12363   |          |                          |               | kernel: Improper input validation        |
+|                                      |                  |          |                          |               | in some Intel(R) Graphics Drivers        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-12363    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-12364   |          |                          |               | kernel: Null pointer dereference         |
+|                                      |                  |          |                          |               | in some Intel(R) Graphics Drivers        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-12364    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-24504   |          |                          |               | kernel: Uncontrolled resource            |
+|                                      |                  |          |                          |               | consumption in some Intel(R)             |
+|                                      |                  |          |                          |               | Ethernet E810 Adapter drivers            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-24504    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-26541   |          |                          |               | kernel: security bypass                  |
+|                                      |                  |          |                          |               | in certs/blacklist.c and                 |
+|                                      |                  |          |                          |               | certs/system_keyring.c                   |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-26541    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-27835   |          |                          |               | kernel: child process is able to         |
+|                                      |                  |          |                          |               | access parent mm through hfi dev...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-27835    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-36310   |          |                          |               | kernel: infinite loop in                 |
+|                                      |                  |          |                          |               | set_memory_region_test in                |
+|                                      |                  |          |                          |               | arch/x86/kvm/svm/svm.c for               |
+|                                      |                  |          |                          |               | certain nested page faults...            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-36310    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-26932   |          |                          |               | ELSA-2021-9136:  Unbreakable             |
+|                                      |                  |          |                          |               | Enterprise kernel-container              |
+|                                      |                  |          |                          |               | security update (IMPORTANT)              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-26932    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42739   |          |                          |               | kernel: Heap buffer                      |
+|                                      |                  |          |                          |               | overflow in firedtv driver               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42739    |
++                                      +------------------+----------+                          +---------------+------------------------------------------+
+|                                      | CVE-2017-0537    | LOW      |                          |               | An information disclosure                |
+|                                      |                  |          |                          |               | vulnerability in the kernel USB          |
+|                                      |                  |          |                          |               | gadget driver could enable...            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2017-0537     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2017-13165   |          |                          |               | An elevation of privilege                |
+|                                      |                  |          |                          |               | vulnerability in the kernel file         |
+|                                      |                  |          |                          |               | system. Product: Android....             |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2017-13165    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2017-13693   |          |                          |               | kernel: ACPI operand                     |
+|                                      |                  |          |                          |               | cache leak in dsutils.c                  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2017-13693    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-1121    |          |                          |               | procps-ng, procps: process               |
+|                                      |                  |          |                          |               | hiding through race                      |
+|                                      |                  |          |                          |               | condition enumerating /proc              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-1121     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-12928   |          |                          |               | kernel: NULL pointer dereference         |
+|                                      |                  |          |                          |               | in hfs_ext_read_extent in hfs.ko         |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-12928    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-12929   |          |                          |               | kernel: use-after-free in                |
+|                                      |                  |          |                          |               | ntfs_read_locked_inode in the ntfs.ko    |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-12929    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-12930   |          |                          |               | kernel: stack-based out-of-bounds        |
+|                                      |                  |          |                          |               | write in ntfs_end_buffer_async_read      |
+|                                      |                  |          |                          |               | in the ntfs.ko                           |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-12930    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-12931   |          |                          |               | kernel: stack-based                      |
+|                                      |                  |          |                          |               | out-of-bounds write in                   |
+|                                      |                  |          |                          |               | ntfs_attr_find in the ntfs.ko            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-12931    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-14899   |          |                          |               | VPN: an attacker can inject data         |
+|                                      |                  |          |                          |               | into the TCP stream which allows...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-14899    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-15213   |          |                          |               | kernel: use-after-free caused            |
+|                                      |                  |          |                          |               | by malicious USB device in               |
+|                                      |                  |          |                          |               | drivers/media/usb/dvb-usb/dvb-usb-init.c |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-15213    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-16230   |          |                          |               | kernel: null pointer dereference in      |
+|                                      |                  |          |                          |               | drivers/gpu/drm/radeon/radeon_display.c  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-16230    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-19378   |          |                          |               | kernel: out-of-bounds write in           |
+|                                      |                  |          |                          |               | index_rbio_pages in fs/btrfs/raid56.c    |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-19378    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-19814   |          |                          |               | kernel: out-of-bounds write              |
+|                                      |                  |          |                          |               | in __remove_dirty_segment                |
+|                                      |                  |          |                          |               | in fs/f2fs/segment.c                     |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-19814    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-11725   |          |                          |               | kernel: improper handling of             |
+|                                      |                  |          |                          |               | private_size*count multiplication        |
+|                                      |                  |          |                          |               | due to count=info->owner typo            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-11725    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-14304   |          |                          |               | kernel: ethtool when reading             |
+|                                      |                  |          |                          |               | eeprom of device could                   |
+|                                      |                  |          |                          |               | lead to memory leak...                   |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-14304    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-35501   |          |                          |               | kernel: audit not logging access         |
+|                                      |                  |          |                          |               | to syscall open_by_handle_at for         |
+|                                      |                  |          |                          |               | users with CAP_DAC_READ_SEARCH...        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-35501    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-26934   |          |                          |               | An issue was discovered in the Linux     |
+|                                      |                  |          |                          |               | kernel 4.18 through 5.10.16, as...       |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-26934    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-32078   |          |                          |               | kernel: out-of-bounds read in            |
+|                                      |                  |          |                          |               | arch/arm/mach-footbridge/personal-pci.c  |
+|                                      |                  |          |                          |               | due to improper input validation         |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-32078    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-34981   |          |                          |               | kernel: Bluetooth CMTP                   |
+|                                      |                  |          |                          |               | Module Double Free Privilege             |
+|                                      |                  |          |                          |               | Escalation Vulnerability                 |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-34981    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-3669    |          |                          |               | kernel: reading /proc/sysvipc/shm        |
+|                                      |                  |          |                          |               | does not scale with large                |
+|                                      |                  |          |                          |               | shared memory segment counts...          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3669     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-3772    |          |                          |               | kernel: sctp: Invalid chunks             |
+|                                      |                  |          |                          |               | may be used to remotely remove           |
+|                                      |                  |          |                          |               | existing associations...                 |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3772     |
++--------------------------------------+------------------+----------+                          +---------------+------------------------------------------+
+| linux-modules-extra-5.4.0-90-generic | CVE-2013-7445    | MEDIUM   |                          |               | kernel: memory exhaustion via            |
+|                                      |                  |          |                          |               | crafted Graphics Execution               |
+|                                      |                  |          |                          |               | Manager (GEM) objects                    |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2013-7445     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2015-8553    |          |                          |               | CVE-2015-2150 CVE-2015-8553              |
+|                                      |                  |          |                          |               | xen: non-maskable interrupts             |
+|                                      |                  |          |                          |               | triggerable by guests (xsa120)           |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2015-8553     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2016-8660    |          |                          |               | kernel: xfs: local DoS due to            |
+|                                      |                  |          |                          |               | a page lock order bug in...              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2016-8660     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-17977   |          |                          |               | kernel: Mishandled interactions among    |
+|                                      |                  |          |                          |               | XFRM Netlink messages, IPPROTO_AH        |
+|                                      |                  |          |                          |               | packets, and IPPROTO_IP packets...       |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-17977    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-12363   |          |                          |               | kernel: Improper input validation        |
+|                                      |                  |          |                          |               | in some Intel(R) Graphics Drivers        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-12363    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-12364   |          |                          |               | kernel: Null pointer dereference         |
+|                                      |                  |          |                          |               | in some Intel(R) Graphics Drivers        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-12364    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-24504   |          |                          |               | kernel: Uncontrolled resource            |
+|                                      |                  |          |                          |               | consumption in some Intel(R)             |
+|                                      |                  |          |                          |               | Ethernet E810 Adapter drivers            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-24504    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-26541   |          |                          |               | kernel: security bypass                  |
+|                                      |                  |          |                          |               | in certs/blacklist.c and                 |
+|                                      |                  |          |                          |               | certs/system_keyring.c                   |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-26541    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-27835   |          |                          |               | kernel: child process is able to         |
+|                                      |                  |          |                          |               | access parent mm through hfi dev...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-27835    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-36310   |          |                          |               | kernel: infinite loop in                 |
+|                                      |                  |          |                          |               | set_memory_region_test in                |
+|                                      |                  |          |                          |               | arch/x86/kvm/svm/svm.c for               |
+|                                      |                  |          |                          |               | certain nested page faults...            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-36310    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-26932   |          |                          |               | ELSA-2021-9136:  Unbreakable             |
+|                                      |                  |          |                          |               | Enterprise kernel-container              |
+|                                      |                  |          |                          |               | security update (IMPORTANT)              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-26932    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-42739   |          |                          |               | kernel: Heap buffer                      |
+|                                      |                  |          |                          |               | overflow in firedtv driver               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-42739    |
++                                      +------------------+----------+                          +---------------+------------------------------------------+
+|                                      | CVE-2017-0537    | LOW      |                          |               | An information disclosure                |
+|                                      |                  |          |                          |               | vulnerability in the kernel USB          |
+|                                      |                  |          |                          |               | gadget driver could enable...            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2017-0537     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2017-13165   |          |                          |               | An elevation of privilege                |
+|                                      |                  |          |                          |               | vulnerability in the kernel file         |
+|                                      |                  |          |                          |               | system. Product: Android....             |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2017-13165    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2017-13693   |          |                          |               | kernel: ACPI operand                     |
+|                                      |                  |          |                          |               | cache leak in dsutils.c                  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2017-13693    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-1121    |          |                          |               | procps-ng, procps: process               |
+|                                      |                  |          |                          |               | hiding through race                      |
+|                                      |                  |          |                          |               | condition enumerating /proc              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-1121     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-12928   |          |                          |               | kernel: NULL pointer dereference         |
+|                                      |                  |          |                          |               | in hfs_ext_read_extent in hfs.ko         |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-12928    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-12929   |          |                          |               | kernel: use-after-free in                |
+|                                      |                  |          |                          |               | ntfs_read_locked_inode in the ntfs.ko    |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-12929    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-12930   |          |                          |               | kernel: stack-based out-of-bounds        |
+|                                      |                  |          |                          |               | write in ntfs_end_buffer_async_read      |
+|                                      |                  |          |                          |               | in the ntfs.ko                           |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-12930    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2018-12931   |          |                          |               | kernel: stack-based                      |
+|                                      |                  |          |                          |               | out-of-bounds write in                   |
+|                                      |                  |          |                          |               | ntfs_attr_find in the ntfs.ko            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-12931    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-14899   |          |                          |               | VPN: an attacker can inject data         |
+|                                      |                  |          |                          |               | into the TCP stream which allows...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-14899    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-15213   |          |                          |               | kernel: use-after-free caused            |
+|                                      |                  |          |                          |               | by malicious USB device in               |
+|                                      |                  |          |                          |               | drivers/media/usb/dvb-usb/dvb-usb-init.c |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-15213    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-16230   |          |                          |               | kernel: null pointer dereference in      |
+|                                      |                  |          |                          |               | drivers/gpu/drm/radeon/radeon_display.c  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-16230    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-19378   |          |                          |               | kernel: out-of-bounds write in           |
+|                                      |                  |          |                          |               | index_rbio_pages in fs/btrfs/raid56.c    |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-19378    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-19814   |          |                          |               | kernel: out-of-bounds write              |
+|                                      |                  |          |                          |               | in __remove_dirty_segment                |
+|                                      |                  |          |                          |               | in fs/f2fs/segment.c                     |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-19814    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-11725   |          |                          |               | kernel: improper handling of             |
+|                                      |                  |          |                          |               | private_size*count multiplication        |
+|                                      |                  |          |                          |               | due to count=info->owner typo            |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-11725    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-14304   |          |                          |               | kernel: ethtool when reading             |
+|                                      |                  |          |                          |               | eeprom of device could                   |
+|                                      |                  |          |                          |               | lead to memory leak...                   |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-14304    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-35501   |          |                          |               | kernel: audit not logging access         |
+|                                      |                  |          |                          |               | to syscall open_by_handle_at for         |
+|                                      |                  |          |                          |               | users with CAP_DAC_READ_SEARCH...        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-35501    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-26934   |          |                          |               | An issue was discovered in the Linux     |
+|                                      |                  |          |                          |               | kernel 4.18 through 5.10.16, as...       |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-26934    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-32078   |          |                          |               | kernel: out-of-bounds read in            |
+|                                      |                  |          |                          |               | arch/arm/mach-footbridge/personal-pci.c  |
+|                                      |                  |          |                          |               | due to improper input validation         |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-32078    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-34981   |          |                          |               | kernel: Bluetooth CMTP                   |
+|                                      |                  |          |                          |               | Module Double Free Privilege             |
+|                                      |                  |          |                          |               | Escalation Vulnerability                 |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-34981    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-3669    |          |                          |               | kernel: reading /proc/sysvipc/shm        |
+|                                      |                  |          |                          |               | does not scale with large                |
+|                                      |                  |          |                          |               | shared memory segment counts...          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3669     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-3772    |          |                          |               | kernel: sctp: Invalid chunks             |
+|                                      |                  |          |                          |               | may be used to remotely remove           |
+|                                      |                  |          |                          |               | existing associations...                 |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3772     |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| locales                              | CVE-2021-35942   | MEDIUM   | 2.31-0ubuntu9.2          |               | glibc: Arbitrary read in wordexp()       |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-35942    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-38604   |          |                          |               | glibc: NULL pointer dereference in       |
+|                                      |                  |          |                          |               | helper_thread() in mq_notify.c while     |
+|                                      |                  |          |                          |               | handling NOTIFY_REMOVED messages...      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-38604    |
++                                      +------------------+----------+                          +---------------+------------------------------------------+
+|                                      | CVE-2016-10228   | LOW      |                          |               | glibc: iconv program can hang            |
+|                                      |                  |          |                          |               | when invoked with the -c option          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2016-10228    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2019-25013   |          |                          |               | glibc: buffer over-read in               |
+|                                      |                  |          |                          |               | iconv when processing invalid            |
+|                                      |                  |          |                          |               | multi-byte input sequences in...         |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2019-25013    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-27618   |          |                          |               | glibc: iconv when processing             |
+|                                      |                  |          |                          |               | invalid multi-byte input                 |
+|                                      |                  |          |                          |               | sequences fails to advance the...        |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-27618    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-29562   |          |                          |               | glibc: assertion failure in iconv        |
+|                                      |                  |          |                          |               | when converting invalid UCS4             |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-29562    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-6096    |          |                          |               | glibc: signed comparison                 |
+|                                      |                  |          |                          |               | vulnerability in the                     |
+|                                      |                  |          |                          |               | ARMv7 memcpy function                    |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-6096     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-27645   |          |                          |               | glibc: Use-after-free in                 |
+|                                      |                  |          |                          |               | addgetnetgrentX function                 |
+|                                      |                  |          |                          |               | in netgroupcache.c                       |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-27645    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-3326    |          |                          |               | glibc: Assertion failure in              |
+|                                      |                  |          |                          |               | ISO-2022-JP-3 gconv module               |
+|                                      |                  |          |                          |               | related to combining characters          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3326     |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-33574   |          |                          |               | glibc: mq_notify does                    |
+|                                      |                  |          |                          |               | not handle separately                    |
+|                                      |                  |          |                          |               | allocated thread attributes              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-33574    |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| login                                | CVE-2013-4235    |          | 1:4.8.1-1ubuntu5.20.04.1 |               | shadow-utils: TOCTOU race                |
+|                                      |                  |          |                          |               | conditions by copying and                |
+|                                      |                  |          |                          |               | removing directory trees                 |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2013-4235     |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| open-iscsi                           | CVE-2020-13987   |          | 2.0.874-7.1ubuntu6.2     |               | Open-iSCSI: OOB read in                  |
+|                                      |                  |          |                          |               | checksum calculation in uIP              |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-13987    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-13988   |          |                          |               | Open-iSCSI: counter wraparound           |
+|                                      |                  |          |                          |               | resulting in infinite loop               |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-13988    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2020-17437   |          |                          |               | Open-iSCSI: invalid handing              |
+|                                      |                  |          |                          |               | of the TCP urgent data pointer           |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-17437    |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| openssh-client                       | CVE-2020-14145   |          | 1:8.2p1-4ubuntu0.3       |               | openssh: Observable discrepancy          |
+|                                      |                  |          |                          |               | leading to an information leak           |
+|                                      |                  |          |                          |               | in the algorithm negotiation...          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-14145    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-41617   |          |                          |               | openssh: privilege escalation            |
+|                                      |                  |          |                          |               | when AuthorizedKeysCommand or            |
+|                                      |                  |          |                          |               | AuthorizedPrincipalsCommand              |
+|                                      |                  |          |                          |               | are configured                           |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-41617    |
++--------------------------------------+------------------+          +                          +---------------+------------------------------------------+
+| openssh-server                       | CVE-2020-14145   |          |                          |               | openssh: Observable discrepancy          |
+|                                      |                  |          |                          |               | leading to an information leak           |
+|                                      |                  |          |                          |               | in the algorithm negotiation...          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-14145    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-41617   |          |                          |               | openssh: privilege escalation            |
+|                                      |                  |          |                          |               | when AuthorizedKeysCommand or            |
+|                                      |                  |          |                          |               | AuthorizedPrincipalsCommand              |
+|                                      |                  |          |                          |               | are configured                           |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-41617    |
++--------------------------------------+------------------+          +                          +---------------+------------------------------------------+
+| openssh-sftp-server                  | CVE-2020-14145   |          |                          |               | openssh: Observable discrepancy          |
+|                                      |                  |          |                          |               | leading to an information leak           |
+|                                      |                  |          |                          |               | in the algorithm negotiation...          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-14145    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-41617   |          |                          |               | openssh: privilege escalation            |
+|                                      |                  |          |                          |               | when AuthorizedKeysCommand or            |
+|                                      |                  |          |                          |               | AuthorizedPrincipalsCommand              |
+|                                      |                  |          |                          |               | are configured                           |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-41617    |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| passwd                               | CVE-2013-4235    |          | 1:4.8.1-1ubuntu5.20.04.1 |               | shadow-utils: TOCTOU race                |
+|                                      |                  |          |                          |               | conditions by copying and                |
+|                                      |                  |          |                          |               | removing directory trees                 |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2013-4235     |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| patch                                | CVE-2018-6952    |          | 2.7.6-6                  |               | patch: Double free of memory in          |
+|                                      |                  |          |                          |               | pch.c:another_hunk() causes a crash      |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2018-6952     |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| perl                                 | CVE-2020-16156   | MEDIUM   | 5.30.0-9ubuntu0.2        |               | [Signature Verification Bypass]          |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-16156    |
++--------------------------------------+                  +          +                          +---------------+                                          +
+| perl-base                            |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
++--------------------------------------+                  +          +                          +---------------+                                          +
+| perl-modules-5.30                    |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| policykit-1                          | CVE-2016-2568    | LOW      | 0.105-26ubuntu1.1        |               | polkit: Program run via                  |
+|                                      |                  |          |                          |               | pkexec as unprivileged user              |
+|                                      |                  |          |                          |               | can escape to parent...                  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2016-2568     |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| python3-httplib2                     | CVE-2020-11078   |          | 0.14.0-1ubuntu1          |               | python-httplib2: CRLF injection          |
+|                                      |                  |          |                          |               | via an attacker controlled               |
+|                                      |                  |          |                          |               | unescaped part of uri for...             |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-11078    |
++                                      +------------------+          +                          +---------------+------------------------------------------+
+|                                      | CVE-2021-21240   |          |                          |               | python-httplib2: Regular                 |
+|                                      |                  |          |                          |               | expression denial of                     |
+|                                      |                  |          |                          |               | service via malicious header             |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-21240    |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| python3-urllib3                      | CVE-2021-33503   |          | 1.25.8-2ubuntu0.1        |               | python-urllib3: ReDoS in the             |
+|                                      |                  |          |                          |               | parsing of authority part of URL         |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-33503    |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| python3.8                            | CVE-2021-23336   |          | 3.8.10-0ubuntu1~20.04.1  |               | python: Web cache poisoning              |
+|                                      |                  |          |                          |               | via urllib.parse.parse_qsl               |
+|                                      |                  |          |                          |               | and urllib.parse.parse_qs                |
+|                                      |                  |          |                          |               | by using a semicolon...                  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-23336    |
++--------------------------------------+                  +          +                          +---------------+                                          +
+| python3.8-minimal                    |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
+|                                      |                  |          |                          |               |                                          |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| snapd                                | CVE-2021-3155    | MEDIUM   | 2.51.1+20.04ubuntu2      |               | snapd does not enforce that the          |
+|                                      |                  |          |                          |               | per-snap user data directory             |
+|                                      |                  |          |                          |               | ~/snap/<snap-name> is...                 |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3155     |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| tcpdump                              | CVE-2020-8037    | LOW      | 4.9.3-4                  |               | tcpdump: ppp decapsulator                |
+|                                      |                  |          |                          |               | can be convinced to allocate             |
+|                                      |                  |          |                          |               | a large amount of...                     |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2020-8037     |
++--------------------------------------+------------------+          +--------------------------+---------------+------------------------------------------+
+| udisks2                              | CVE-2021-3802    |          | 2.8.4-1ubuntu2           |               | udisks2: insecure defaults               |
+|                                      |                  |          |                          |               | in user-accessible mount                 |
+|                                      |                  |          |                          |               | helpers allow for a DoS                  |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-3802     |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| wget                                 | CVE-2021-31879   | MEDIUM   | 1.20.3-1ubuntu2          |               | wget: authorization header               |
+|                                      |                  |          |                          |               | disclosure on redirect                   |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2021-31879    |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
+| xdg-user-dirs                        | CVE-2017-15131   | LOW      | 0.17-2ubuntu1            |               | xdg-user-dirs, gnome-session:            |
+|                                      |                  |          |                          |               | Xsession creation of XDG user            |
+|                                      |                  |          |                          |               | directories does not honor system...     |
+|                                      |                  |          |                          |               | -->avd.aquasec.com/nvd/cve-2017-15131    |
++--------------------------------------+------------------+----------+--------------------------+---------------+------------------------------------------+
